@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="401cbb19-7fa0-41b3-9602-8ca321276d74" name="Default Changelist" comment="Update of the incorrect initial commit, also contains show, create,edit controllers and their respective pages.">
-      <change afterPath="$PROJECT_DIR$/resources/views/foods/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/foods/edit.blade.php" afterDir="false" />
+    <list default="true" id="401cbb19-7fa0-41b3-9602-8ca321276d74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crud-application-u1758652" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-application-u1758652" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +33,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -160,7 +158,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../crud-application-u1758652" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -190,6 +188,7 @@
       <workItem from="1602068598208" duration="10443000" />
       <workItem from="1602091597512" duration="2646000" />
       <workItem from="1602153407057" duration="11010000" />
+      <workItem from="1602172718600" duration="1004000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit with show and index pages">
       <created>1602162088494</created>
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602162088494</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update of the incorrect initial commit, also contains show, create,edit controllers and their respective pages.">
+      <created>1602172731257</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602172731257</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,10 +220,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test commit with show and index pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test commit with show and index pages" />
+    <MESSAGE value="Update of the incorrect initial commit, also contains show, create,edit controllers and their respective pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update of the incorrect initial commit, also contains show, create,edit controllers and their respective pages." />
   </component>
   <component name="WindowStateProjectService">
     <state x="594" y="117" key="#Deployment" timestamp="1602170714778">
@@ -228,10 +236,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1179" y="263" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602076765553" />
-    <state x="318" y="32" key="CommitChangelistDialog2" timestamp="1602170740354">
+    <state x="318" y="32" key="CommitChangelistDialog2" timestamp="1602172730712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="318" y="32" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602170740354" />
+    <state x="318" y="32" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602172730712" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1602170954449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
