@@ -38,15 +38,12 @@ class FoodController extends Controller
      */
     public function store()
     {
-      \request()->validate([
+      $validatedAttr = \request()->validate([
           "name" => ["required", "min:1", "max:60"],
           "description" => ["required", "min:5", "max:500"]
       ]);
 
-      $food = new Foods();
-      $food->name= \request("name");
-      $food->description= \request("description");
-      $food->save();
+      Foods::create($validatedAttr);
 
       return redirect("/foods");
     }
@@ -82,14 +79,12 @@ class FoodController extends Controller
      */
     public function update(Foods $food)
     {
-        \request()->validate([
+       $validatedAttr = \request()->validate([
             "name" => ["required", "min:1", "max:60"],
             "description" => ["required", "min:5", "max:500"]
         ]);
 
-        $food->name= \request("name");
-        $food->description= \request("description");
-        $food->save();
+        $food->update($validatedAttr);
 
         return redirect("/foods");
     }
