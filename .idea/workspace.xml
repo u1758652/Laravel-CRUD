@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="401cbb19-7fa0-41b3-9602-8ca321276d74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FoodController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FoodController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Foods.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Foods.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../crud-application-u1758652" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-application-u1758652" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +190,9 @@
       <workItem from="1602068598208" duration="10443000" />
       <workItem from="1602091597512" duration="2646000" />
       <workItem from="1602153407057" duration="11010000" />
-      <workItem from="1602172718600" duration="1004000" />
+      <workItem from="1602172718600" duration="3537000" />
+      <workItem from="1602236041491" duration="616000" />
+      <workItem from="1602497792326" duration="3817000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit with show and index pages">
       <created>1602162088494</created>
@@ -236,10 +240,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1179" y="263" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602076765553" />
-    <state x="318" y="32" key="CommitChangelistDialog2" timestamp="1602172730712">
+    <state x="318" y="32" key="CommitChangelistDialog2" timestamp="1602173842567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="318" y="32" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602172730712" />
+    <state x="318" y="32" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602173842567" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1602170954449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -256,10 +260,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1230" y="429" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601990505459" />
-    <state x="672" y="226" key="Vcs.Push.Dialog.v2" timestamp="1602162631205">
+    <state x="672" y="226" key="Vcs.Push.Dialog.v2" timestamp="1602174158069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="672" y="226" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602162631205" />
+    <state x="672" y="226" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602174158069" />
     <state x="1213" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602162016849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

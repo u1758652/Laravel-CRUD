@@ -54,25 +54,22 @@ class FoodController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Food  $food
+     * @param  \App\Models\Foods  $food
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Foods $food)
     {
-        $food = Foods::find($id);
-
-        return view("foods.show",["food"=>$food]);
+        return view("foods.show",compact("food"));
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Food  $food
+     * @param  \App\Models\Foods  $food
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Foods  $food)
     {
-        $food = Foods::find($id);
         return view("foods.edit",compact("food"));
     }
 
@@ -80,16 +77,16 @@ class FoodController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Food  $food
+     * @param  \App\Models\Foods  $food
      * @return \Illuminate\Http\Response
      */
-    public function update($id)
+    public function update(Foods $food)
     {
         \request()->validate([
             "name" => ["required", "min:1", "max:60"],
             "description" => ["required", "min:5", "max:500"]
         ]);
-        $food = Foods::find($id);
+
         $food->name= \request("name");
         $food->description= \request("description");
         $food->save();
@@ -100,10 +97,10 @@ class FoodController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Food  $food
+     * @param  \App\Models\Foods  $food
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Food $food)
+    public function destroy(Foods $food)
     {
         //
     }
