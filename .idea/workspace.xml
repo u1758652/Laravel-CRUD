@@ -21,8 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="401cbb19-7fa0-41b3-9602-8ca321276d74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FoodController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FoodController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Foods.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Foods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_07_173255_update_foods_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_07_173549_create_foods_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_07_173549_create_foods_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../crud-application-u1758652" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-application-u1758652" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +194,8 @@
       <workItem from="1602153407057" duration="11010000" />
       <workItem from="1602172718600" duration="3537000" />
       <workItem from="1602236041491" duration="616000" />
-      <workItem from="1602497792326" duration="6450000" />
+      <workItem from="1602497792326" duration="8486000" />
+      <workItem from="1602591112646" duration="6107000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit with show and index pages">
       <created>1602162088494</created>
