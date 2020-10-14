@@ -97,6 +97,8 @@ class FoodController extends Controller
      */
     public function destroy(Foods $food)
     {
-        //
+        $food->delete();
+
+        return redirect("/foods");
     }
 }

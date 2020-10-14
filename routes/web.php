@@ -30,3 +30,4 @@ Route::get("/foods/{food}", 'App\Http\Controllers\FoodController@show');
 
 Route::get("/foods/{food}/edit", 'App\Http\Controllers\FoodController@edit');
 Route::put("/foods/{food}", 'App\Http\Controllers\FoodController@update');
+Route::delete("/foods/{food}", 'App\Http\Controllers\FoodController@destroy');
