@@ -1,4 +1,6 @@
 <!Doctype html>
+@extends("layouts.app")
+@section("foodedit")
 <div>
     <h1>Edit {{$food->name}}</h1>
     <form method="POST" action="/foods/{{$food->id}}">
@@ -15,3 +17,4 @@
         </div>
     </form>
 </div>
+@endsection

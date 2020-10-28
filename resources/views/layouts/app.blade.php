@@ -47,6 +47,9 @@
 
         @yield('content')
         @yield("foodindex")
+        @yield("foodshow")
+        @yield("foodcreate")
+        @yield("foodedit")
     </div>
 </body>
 </html>

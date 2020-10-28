@@ -2,8 +2,8 @@
 @extends("layouts.app")
 @section("foodindex")
 <body>
+<a href="foods/create"><button>Create some food</button></a>
 <h4>All the foods</h4>
-
     @foreach($foods as $food)
         <div class="flex flex-row py-2">
             <div class="bg-gray-200">
@@ -14,8 +14,6 @@
                 <p>{{$food->description}}</p>
             </div>
         </div>
-
-
 @endforeach
 </body>
 @endsection

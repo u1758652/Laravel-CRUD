@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+@extends("layouts.app")
+@section("foodshow")
 <form method="POST">
     @csrf
     @method("DELETE")
@@ -12,4 +14,4 @@
         <button type="submit">Delete</button>
     </div>
 </form>
-
+@endsection

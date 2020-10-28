@@ -1,4 +1,6 @@
 <!Doctype html>
+@extends("layouts.app")
+@section("foodcreate")
 <div>
     <h1>Add food</h1>
     <form method="POST" action="/foods/">
@@ -14,3 +16,4 @@
         </div>
     </form>
 </div>
+@endsection

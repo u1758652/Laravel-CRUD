@@ -9,9 +9,9 @@ class Foods extends Model
 {
     use HasFactory;
 
-    protected $fillable  = ["name", "description"];
+    protected $fillable  = ["user_id", "name", "description"];
 
     public function user(){
-        return $this->belongsTo(User::class);
+        return $this->belongsTo(User::class, "user_id");
     }
 }

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Foods;
+use Illuminate\Support\Facades\Auth;
 
 class FoodController extends Controller
 {
@@ -23,10 +24,13 @@ class FoodController extends Controller
 
     public function store()
     {
+      $id = Auth::id();
       $validatedAttr = \request()->validate([
           "name" => ["required", "min:1", "max:60"],
           "description" => ["required", "min:5", "max:500"]
       ]);
+
+      $validatedAttr ["user_id"] = $id;
 
       Foods::create($validatedAttr);
 
