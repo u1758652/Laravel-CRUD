@@ -12,6 +12,8 @@
                 </a>
 
                 <p>{{$food->description}}</p>
+
+                <p>Added by {{$food->user->name}}</p>
             </div>
         </div>
 @endforeach

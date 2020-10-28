@@ -43,5 +43,7 @@ class User extends Authenticatable
 
     public function foods(){
         return $this->hasMany(Foods::class);
+
+
     }
 }

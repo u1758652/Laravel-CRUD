@@ -68,4 +68,6 @@ class FoodController extends Controller
 
         return redirect("/foods");
     }
+
+
 }
