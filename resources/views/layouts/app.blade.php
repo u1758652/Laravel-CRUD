@@ -11,7 +11,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    
+
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
@@ -46,6 +46,7 @@
         </header>
 
         @yield('content')
+        @yield("foodindex")
     </div>
 </body>
 </html>

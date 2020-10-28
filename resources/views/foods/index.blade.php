@@ -1,16 +1,21 @@
 <!DOCTYPE html>
+@extends("layouts.app")
+@section("foodindex")
 <body>
-<p>Bebe</p>
-@foreach($foods as $food)
-<div class="content">
-    <div class="title">
-        <a href="/foods/{{$food->id}}" >
-            <p>{{$food->name}}</p>
-        </a>
+<h4>All the foods</h4>
 
-        <p>{{$food->description}}</p>
-    </div>
+    @foreach($foods as $food)
+        <div class="flex flex-row py-2">
+            <div class="bg-gray-200">
+                <a href="/foods/{{$food->id}}">
+                    <p class="text-red-600" >{{$food->name}}</p>
+                </a>
 
-</div>
+                <p>{{$food->description}}</p>
+            </div>
+        </div>
+
+
 @endforeach
 </body>
+@endsection

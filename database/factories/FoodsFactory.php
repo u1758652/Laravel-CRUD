@@ -7,23 +7,18 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 
 class FoodsFactory extends Factory
 {
-    /**
-     * The name of the factory's corresponding model.
-     *
-     * @var string
-     */
+
     protected $model = Foods::class;
 
-    /**
-     * Define the model's default state.
-     *
-     * @return array
-     */
+
     public function definition()
     {
+        $faker = \Faker\Factory::create();
+        $faker->addProvider(new \FakerRestaurant\Provider\en_US\Restaurant($faker));
+
         return [
             "user_id" => \App\Models\User::factory(),
-            "name" => $this->faker->word,
+            "name" => $faker->foodName(),
             "description" => $this->faker->sentence
         ];
     }
