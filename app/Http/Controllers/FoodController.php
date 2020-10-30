@@ -12,7 +12,7 @@ class FoodController extends Controller
     {
         $foods = Foods::latest()->get();
 
-        return view("foods.index",["foods" => $foods]);
+        return view("foods.index",compact("foods"));
     }
 
 
