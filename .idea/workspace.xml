@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="401cbb19-7fa0-41b3-9602-8ca321276d74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FoodController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FoodController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Foods.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Foods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../crud-application-u1758652" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-application-u1758652" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +203,8 @@
       <workItem from="1603101115051" duration="10090000" />
       <workItem from="1603446094175" duration="1425000" />
       <workItem from="1603894953378" duration="12645000" />
-      <workItem from="1604055951445" duration="394000" />
+      <workItem from="1604055951445" duration="7931000" />
+      <workItem from="1609090660475" duration="3902000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit with show and index pages">
       <created>1602162088494</created>

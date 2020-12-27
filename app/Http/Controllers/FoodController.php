@@ -21,7 +21,6 @@ class FoodController extends Controller
         return view("foods.create");
     }
 
-
     public function store()
     {
       $id = Auth::id();
