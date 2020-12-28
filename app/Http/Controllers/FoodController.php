@@ -48,7 +48,8 @@ class FoodController extends Controller
 
     public function edit(Foods  $food)
     {
-        return view("foods.edit",compact("food"));
+        $tags = Tag::all();
+        return view("foods.edit",compact("food"),["tags"=>Tag::all()]);
     }
 
 
@@ -59,6 +60,7 @@ class FoodController extends Controller
             "description" => ["required", "min:5", "max:500"]
         ]);
 
+        $food->tags()->attach(request("tags"));
         $food->update($validatedAttr);
 
         return redirect("/foods");
