@@ -12,6 +12,12 @@
             <p>Edit</p>
         </a>
         <button type="submit">Delete</button>
+
+        <p>
+            @foreach($food -> tags as $tag)
+                <a href="/foods?tag={{$tag -> name}}">{{$tag -> name}}</a>
+            @endforeach
+        </p>
     </div>
 </form>
 @endsection

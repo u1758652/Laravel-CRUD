@@ -22,9 +22,9 @@
     <list default="true" id="401cbb19-7fa0-41b3-9602-8ca321276d74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FoodController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FoodController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Foods.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Foods.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/foods/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/foods/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/foods/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/foods/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../crud-application-u1758652" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-application-u1758652" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +204,7 @@
       <workItem from="1603446094175" duration="1425000" />
       <workItem from="1603894953378" duration="12645000" />
       <workItem from="1604055951445" duration="7931000" />
-      <workItem from="1609090660475" duration="3902000" />
+      <workItem from="1609090660475" duration="19141000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit with show and index pages">
       <created>1602162088494</created>
@@ -252,6 +252,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1179" y="263" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602076765553" />
+    <state x="624" y="215" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609110843904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="215" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609110843904" />
     <state x="318" y="32" key="CommitChangelistDialog2" timestamp="1602173842567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -272,6 +276,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1230" y="429" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601990505459" />
+    <state x="1151" y="154" key="RollbackChangesDialog" timestamp="1609115223837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1151" y="154" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609115223837" />
     <state x="672" y="226" key="Vcs.Push.Dialog.v2" timestamp="1602174158069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -280,5 +288,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1213" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602162016849" />
+    <state x="1019" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1609116555769">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1019" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609116555769" />
   </component>
 </project>

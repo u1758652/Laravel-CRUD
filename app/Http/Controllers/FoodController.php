@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Foods;
+use App\Models\Tag;
 use Illuminate\Support\Facades\Auth;
 
 class FoodController extends Controller
@@ -10,28 +11,30 @@ class FoodController extends Controller
 
     public function index()
     {
-        $foods = Foods::latest()->get();
+        if (request("tag")) {
+            $foods = Tag::where("name", request("tag"))->firstOrFail()->foods;
+        } else {
+            $foods = Foods::latest()->get();
+        }
 
-        return view("foods.index",compact("foods"));
+        return view("foods.index", compact("foods"));
     }
 
 
     public function create()
     {
-        return view("foods.create");
+        $tags = Tag::all();
+        return view("foods.create",["tags"=>Tag::all()]);
     }
 
     public function store()
     {
       $id = Auth::id();
-      $validatedAttr = \request()->validate([
-          "name" => ["required", "min:1", "max:60"],
-          "description" => ["required", "min:5", "max:500"]
-      ]);
+      $food = new Foods($this->validateFood());
+      $food->user_id = $id;
+      $food->save();
 
-      $validatedAttr ["user_id"] = $id;
-
-      Foods::create($validatedAttr);
+      $food->tags()->attach(request("tags"));
 
       return redirect("/foods");
     }
@@ -68,5 +71,13 @@ class FoodController extends Controller
         return redirect("/foods");
     }
 
+    protected function validateFood()
+    {
+        return request()->validate([
+            "name" => ["required", "min:1", "max:60"],
+            "description" => ["required", "min:5", "max:500"]
+        ]);
+
+    }
 
 }
