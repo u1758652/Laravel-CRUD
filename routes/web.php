@@ -20,6 +20,9 @@ Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::post("/foods/{food}/like","App\Http\Controllers\FoodLikesController@store");
+Route::delete("/foods/{food}/like","App\Http\Controllers\FoodLikesController@destroy");
+
 
 Route::get("/foods", 'App\Http\Controllers\FoodController@index');
 

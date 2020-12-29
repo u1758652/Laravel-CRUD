@@ -10,6 +10,7 @@ use Illuminate\Notifications\Notifiable;
 class User extends Authenticatable
 {
     use HasFactory, Notifiable;
+    use Likable;
 
     /**
      * The attributes that are mass assignable.
@@ -44,5 +45,7 @@ class User extends Authenticatable
     public function foods(){
         return $this->hasMany(Foods::class);
     }
+
+
 }
 

@@ -11,7 +11,7 @@
         <label class="label" for="description">Description</label>
         <input class="input" type="text" name="description" id="description">
 
-        <select name="tags" >
+        <select name="tags">
             @foreach($tags as $tag)
                 <option value="{{$tag -> id}}">{{$tag -> name}}</option>
             @endforeach

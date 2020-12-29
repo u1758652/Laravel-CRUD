@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="401cbb19-7fa0-41b3-9602-8ca321276d74" name="Default Changelist" comment="">
+    <list default="true" id="401cbb19-7fa0-41b3-9602-8ca321276d74" name="Default Changelist" comment="Update of the incorrect initial commit, also contains show, create,edit controllers and their respective pages.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Foods.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Foods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/foods/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/foods/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/foods/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/foods/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../crud-application-u1758652" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-application-u1758652" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,6 +206,7 @@
       <workItem from="1603894953378" duration="12645000" />
       <workItem from="1604055951445" duration="7931000" />
       <workItem from="1609090660475" duration="20335000" />
+      <workItem from="1609175464913" duration="20611000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit with show and index pages">
       <created>1602162088494</created>
@@ -251,10 +258,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="215" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609110843904" />
-    <state x="318" y="32" key="CommitChangelistDialog2" timestamp="1602173842567">
+    <state x="318" y="32" key="CommitChangelistDialog2" timestamp="1609202078420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="318" y="32" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602173842567" />
+    <state x="318" y="32" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609202078420" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1602170954449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -275,6 +282,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1151" y="154" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609115223837" />
+    <state x="1093" y="202" width="675" height="655" key="StructurePopup" timestamp="1609190982299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1093" y="202" width="675" height="655" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1609190982299" />
     <state x="672" y="226" key="Vcs.Push.Dialog.v2" timestamp="1602174158069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -283,6 +294,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1213" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602162016849" />
+    <state x="1142" y="249" key="refactoring.ChangeSignatureDialog" timestamp="1609183226435">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1142" y="249" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609183226435" />
     <state x="1019" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1609116555769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
