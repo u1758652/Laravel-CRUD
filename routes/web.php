@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Laravel\Socialite\Facades\Socialite;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +24,7 @@ Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->nam
 Route::post("/foods/{food}/like","App\Http\Controllers\FoodLikesController@store");
 Route::delete("/foods/{food}/like","App\Http\Controllers\FoodLikesController@destroy");
 
+Route::get("/foods/search","App\Http\Controllers\FoodController@search");
 
 Route::get("/foods", 'App\Http\Controllers\FoodController@index');
 

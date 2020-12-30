@@ -6,11 +6,11 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 
+
 class Foods extends Model
 {
     use HasFactory;
     use Likable;
-
 
     protected $fillable  = ["user_id", "name", "description"];
 
@@ -29,7 +29,6 @@ class Foods extends Model
             "foods_id"
         );
     }
-
 
 
 

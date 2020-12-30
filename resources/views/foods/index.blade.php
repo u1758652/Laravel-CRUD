@@ -2,6 +2,11 @@
 @extends("layouts.app")
 @section("foodindex")
 <body>
+<form action="/foods/search" method="GET">
+    @csrf
+    <input type="text" name="search" />
+    <input type="submit" class="btn btn-sm btn-primary"/>
+</form>
 <a href="foods/create"><button>Create some food</button></a>
 <h4>All the foods</h4>
     @foreach($foods as $food)

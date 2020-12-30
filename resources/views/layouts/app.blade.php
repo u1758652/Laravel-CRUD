@@ -50,6 +50,7 @@
         @yield("foodshow")
         @yield("foodcreate")
         @yield("foodedit")
+        @yield("foodsearch")
     </div>
 </body>
 </html>

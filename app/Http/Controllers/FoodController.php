@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use App\Models\Foods;
 use App\Models\Tag;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Http\Request;
+
 
 class FoodController extends Controller
 {
@@ -81,5 +84,17 @@ class FoodController extends Controller
         ]);
 
     }
+
+    public function search(Request $request)
+    {
+        $search = $request->input("search");
+
+        $foods = Foods::query()
+            ->where("name","LIKE","%$search%")
+            ->get();
+
+        return view("foods.search", compact("foods"));
+    }
+
 
 }
