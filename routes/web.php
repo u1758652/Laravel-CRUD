@@ -21,6 +21,10 @@ Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+// Github login
+Route::get('login/github', 'App\Http\Controllers\Auth\LoginController@redirectToGithub');
+Route::get('login/github/callback', 'App\Http\Controllers\Auth\LoginController@handleGithubCallback');
+
 Route::post("/foods/{food}/like","App\Http\Controllers\FoodLikesController@store");
 Route::delete("/foods/{food}/like","App\Http\Controllers\FoodLikesController@destroy");
 
@@ -36,3 +40,8 @@ Route::get("/foods/{food}", 'App\Http\Controllers\FoodController@show');
 Route::get("/foods/{food}/edit", 'App\Http\Controllers\FoodController@edit');
 Route::put("/foods/{food}", 'App\Http\Controllers\FoodController@update');
 Route::delete("/foods/{food}", 'App\Http\Controllers\FoodController@destroy');
+
+Route::post('/comment/store', 'App\Http\Controllers\CommentController@store')->name('comment.add');
+Route::post('/reply/store', 'App\Http\Controllers\CommentController@replyStore')->name('reply.add');
+
+

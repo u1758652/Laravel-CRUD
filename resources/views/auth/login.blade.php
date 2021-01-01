@@ -66,6 +66,12 @@
                             {{ __('Login') }}
                         </button>
 
+                            <a href="/login/github">
+                                <button type="button" class="btn btn-github">
+                                    <i class="fa fa-github mr-2"></i>Login with Github
+                                </button>
+
+
                         @if (Route::has('register'))
                         <p class="w-full text-xs text-center text-gray-700 my-6 sm:text-sm sm:my-8">
                             {{ __("Don't have an account?") }}
