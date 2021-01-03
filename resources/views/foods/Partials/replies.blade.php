@@ -17,3 +17,4 @@
         @include('foods.partials.replies', ['comments' => $comment->replies])
     </div>
 @endforeach
+

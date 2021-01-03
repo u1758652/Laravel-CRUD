@@ -37,6 +37,6 @@ class CommentController extends Controller
         $food->comments()->save($reply);
 
         return back();
-
     }
+
 }
